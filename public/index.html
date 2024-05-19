@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div
+      class="min-h-screen bg-[url('images/coffee.jpg')] bg-cover px-28 py-5 relative"
+    >
+      <nav class="flex items-center">
+        <!--<img src="images/logo.png" class="w-12 cursor-pointer" alt="logo" />-->
+        <ul class="flex-1 text-center">
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Home</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">About</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Feature</a>
+          </li>
+          <li class="list-none inline-block px-5">
+            <a href="#" class="no-underline text-white px-2">Contact</a>
+          </li>
+        </ul>
+        <img src="images/cart.png" class="w-8 cursor-pointer" alt="" />
+      </nav>
+
+      <div class="text-white mt-48 max-w-xl">
+        <h1 class="text-6xl font-semibold leading-normal">
+          Home Cafe<br />
+          <span class="font-light">cocomo</span>
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+          fugiat. Incidunt ipsa magni cum aperiam repudiandae aut quis culpa
+          eaque, officia sed repellendus.
+        </p>
+
+        <div class="mt-10">
+          <a
+            href="#"
+            class="bg-amber-900 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent hover:border-amber-900 hover:text-white duration-300 hover:border border border-transparent"
+            >Order Now</a
+          >
+          <a href="#"
+            >Download App
+            <span class="text-lg inline-block rotate-90">&#10148;</span></a
+          >
+        </div>
+      </div>
+      <img
+        src="images/cafe.png"
+        class="w-50 xl:w-1/2 xl:absolute bottom-0 right-20"
+      />
+    </div>
+  </body>
+</html>
